@@ -1,12 +1,5 @@
 ## Requirements
 
-- This project is successfully trained and tested on Windows10 with PyTorch 1.7 (Python 3.6).  Linux and lower version PyTorch should also work (not tested). We recommend creating a new environment:
-
-```
-conda create -n LSP python=3.6
-conda activate LSP
-```
-
 - Clone the repository:
 
 ```
@@ -35,7 +28,7 @@ pip install -r requirements.txt
 - Run the demo:
 
   ```
-  python demo.py --id May --driving_audio ./data/Input/00083.wav --device cuda
+  python demo.py --id Nadella --driving_audio ./data/Input/welcome.mp3 --device cuda
   ```
 
   Results can be found under the `results` folder.
