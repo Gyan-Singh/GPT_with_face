@@ -58,12 +58,12 @@ if __name__ == '__main__':
     # load config files
     opt = parser.parse_args()
     # device = torch.device(opt.device)
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")    
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")    
 
-if torch.cuda.is_available():
-    map_location=lambda storage, loc: storage.cuda()
-else:
-    map_location='cpu'
+    if torch.cuda.is_available():
+        map_location=lambda storage, loc: storage.cuda()
+    else:
+        map_location='cpu'
 
     with open(join('./config/', opt.id + '.yaml')) as f:
         config = yaml.load(f)
