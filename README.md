@@ -10,8 +10,8 @@ conda activate LSP
 - Clone the repository:
 
 ```
-git clone https://github.com/YuanxunLu/LiveSpeechPortraits.git
-cd LiveSpeechPortraits
+git clone
+cd
 ```
 
 - FFmpeg is required to combine the audio and the silent generated videos. Please check [FFmpeg](http://ffmpeg.org/download.html) for installation. For Linux users,  you can also:
