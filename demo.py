@@ -33,7 +33,7 @@ warnings.filterwarnings("ignore")
 
 
 def write_video_with_audio(audio_path, output_path, prefix='pred_'):
-    fps, fourcc = 60, cv2.VideoWriter_fourcc(*'DIVX')
+    fps, fourcc = 60, cv2.VideoWriter_fourcc(*'XVID')
     video_tmp_path = join(save_root, 'tmp.avi')
     out = cv2.VideoWriter(video_tmp_path, fourcc, fps, (Renderopt.loadSize, Renderopt.loadSize))
     for j in tqdm(range(nframe), position=0, desc='writing video'):
