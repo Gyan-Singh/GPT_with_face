@@ -3,14 +3,12 @@ scikit_image
 opencv_python
 scipy
 dominate
-albumentations
 numpy
 beautifulsoup4
 scikit-image
 openai
 gtts
 pyyaml==5.4.1
-numba==0.48
 resampy==0.3.1
 Albumentations==0.5.2
 librosa==0.7.1

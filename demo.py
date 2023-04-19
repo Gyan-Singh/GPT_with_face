@@ -114,7 +114,7 @@ if __name__ == '__main__':
     # load reconstruction data
     scale = sio.loadmat(join(data_root, 'id_scale.mat'))['scale'][0,0]
     # Audio2Mel_torch = audio_funcs.Audio2Mel(n_fft=512, hop_length=int(16000/120), win_length=int(16000/60), sampling_rate=16000, 
-    #                                         n_mel_channels=80, mel_fmin=90, mel_fmax=7600.0).to(device)
+    #                                n_mel_channels=80, mel_fmin=90, mel_fmax=7600.0).to(device)
     
     
     
@@ -304,7 +304,6 @@ if __name__ == '__main__':
     
 
 
-    
     
 
 

@@ -35,6 +35,6 @@ pip install -r requirements.txt
 
 
   
-- **For the refernce of the project please check issue (https://github.com/YuanxunLu/LiveSpeechPortraits).**
+- **For the reference of the project please check (https://github.com/YuanxunLu/LiveSpeechPortraits).**
 
   
